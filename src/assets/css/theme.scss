@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700&display=swap');
+@import "vendor/reset";
+@import "vars";
+
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mukta', sans-serif;
+  font-size: 14px;
+  color: $black;
+  line-height: 1.5;
+  overflow: auto;
+  background-color: $blue;
+}
+
+a  {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* Blocks */
+@import "blocks/container";
+@import "blocks/loader";
+@import "blocks/weather";
+@import "blocks/wrapper";
+@import "blocks/forecast";
+@import "blocks/regular";
+@import "blocks/conditions";
+@import "blocks/durated";

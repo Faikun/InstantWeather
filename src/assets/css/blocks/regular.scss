@@ -1,0 +1,53 @@
+.regular {
+    margin: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.regular__info {
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 480px) {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+.regular__city {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.regular__humidity {
+    font-size: .9rem;
+    font-weight: 500;
+    color: rgba($black, .5);
+    margin-bottom: 30px;
+}
+
+.regular__temperature {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.regular__image {
+    display: block;
+    
+    @media (max-width: 480px) {
+        margin: auto;
+    }
+
+    img {
+        width: 150px;
+        height: auto;
+
+        @media (max-width: 480px) {
+           width: 100px;
+        }
+        
+    }
+}

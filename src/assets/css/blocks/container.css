@@ -1,0 +1,13 @@
+.container {
+  margin: 0 10%;
+}
+@media (max-width: 960px) {
+  .container {
+    margin: 0 5%;
+  }
+}
+@media (max-width: 640px) {
+  .container {
+    margin: 0 2%;
+  }
+}/*# sourceMappingURL=container.css.map */
